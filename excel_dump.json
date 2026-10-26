@@ -1,0 +1,1118 @@
+{
+  "Resumen SCRUM": [
+    {
+      "row": 1,
+      "vals": [
+        "SCRUM – Infraestructura de cobros internacionales para Ecuador",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 3,
+      "vals": [
+        "Elemento",
+        "Definición aplicada a la organización",
+        null,
+        "KPIs del plan MVP",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 4,
+      "vals": [
+        "Sprint",
+        "Ciclo fijo de 2 semanas orientado a alcanzar un Sprint Goal y entregar un incremento usable.",
+        null,
+        "Métrica",
+        "Valor",
+        null,
+        "Marco",
+        "Decisión"
+      ]
+    },
+    {
+      "row": 5,
+      "vals": [
+        "Product Backlog",
+        "Lista única, priorizada y evolutiva de funcionalidades, mejoras, riesgos y trabajo necesario para construir el producto.",
+        null,
+        "Sprints planificados",
+        6,
+        null,
+        "Horizonte MVP",
+        "12 semanas"
+      ]
+    },
+    {
+      "row": 6,
+      "vals": [
+        "Sprint Backlog",
+        "Selección de ítems del Product Backlog para un Sprint, junto con el plan/tareas gestionadas por Developers.",
+        null,
+        "Puntos Product Backlog",
+        138,
+        null,
+        "Duración Sprint",
+        "2 semanas"
+      ]
+    },
+    {
+      "row": 7,
+      "vals": [
+        "Increment",
+        "Resultado integrado y usable al final del Sprint que cumple la Definition of Done.",
+        null,
+        "Puntos completados",
+        0,
+        null,
+        "Scrum Team",
+        "PO + SM + Developers"
+      ]
+    },
+    {
+      "row": 8,
+      "vals": [
+        "Definition of Done",
+        "Criterio de calidad común: terminado, revisado, probado, integrado, documentado y sin defectos bloqueantes.",
+        null,
+        "Avance global",
+        0,
+        null,
+        "Meta",
+        "Piloto controlado del MVP"
+      ]
+    },
+    {
+      "row": 9,
+      "vals": [
+        "Cadencia",
+        "Sprints de 2 semanas; Planning al inicio, Daily de 15 min, Review y Retrospective al cierre; Refinement continuo.",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 10,
+      "vals": [
+        null,
+        null,
+        null,
+        "Definition of Done (DoD) recomendada",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 11,
+      "vals": [
+        null,
+        null,
+        null,
+        "1",
+        "Criterios de aceptación cumplidos.",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 12,
+      "vals": [
+        null,
+        null,
+        null,
+        "2",
+        "Código revisado e integrado al branch principal.",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 13,
+      "vals": [
+        null,
+        null,
+        null,
+        "3",
+        "Pruebas relevantes ejecutadas y aprobadas.",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 14,
+      "vals": [
+        null,
+        null,
+        null,
+        "4",
+        "Sin defectos bloqueantes o críticos conocidos.",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 15,
+      "vals": [
+        null,
+        null,
+        null,
+        "5",
+        "Logs/errores y controles básicos de seguridad considerados.",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 16,
+      "vals": [
+        null,
+        null,
+        null,
+        "6",
+        "Documentación técnica/funcional mínima actualizada.",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 17,
+      "vals": [
+        null,
+        null,
+        null,
+        "7",
+        "Demo posible en entorno de prueba y aceptable para el Product Owner.",
+        null,
+        null,
+        null
+      ]
+    }
+  ],
+  "Sprints": [
+    {
+      "row": 1,
+      "vals": [
+        "Plan de Sprints – MVP (6 Sprints / 12 semanas)",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 3,
+      "vals": [
+        "Sprint",
+        "Tema",
+        "Sprint Goal",
+        "Inicio",
+        "Fin",
+        "Días hábiles",
+        "SP planificados",
+        "SP completados",
+        "% avance",
+        "Incremento esperado",
+        "Criterio de cierre"
+      ]
+    },
+    {
+      "row": 4,
+      "vals": [
+        "Sprint 1",
+        "Fundamentos del MVP",
+        "Definir flujo, arquitectura, compliance y base técnica.",
+        "2026-09-28",
+        "2026-10-09",
+        10.0,
+        18,
+        0,
+        0,
+        "Diseño funcional/técnico aprobado y entorno base listo.",
+        "Sprint Review + demo + aceptación del PO"
+      ]
+    },
+    {
+      "row": 5,
+      "vals": [
+        "Sprint 2",
+        "Onboarding y activación",
+        "Permitir registro, verificación y cuenta bancaria.",
+        "2026-10-12",
+        "2026-10-23",
+        10.0,
+        21,
+        0,
+        0,
+        "Usuario puede completar onboarding y quedar listo para cobrar.",
+        "Sprint Review + demo + aceptación del PO"
+      ]
+    },
+    {
+      "row": 6,
+      "vals": [
+        "Sprint 3",
+        "Cobro internacional",
+        "Permitir crear links y procesar pagos internacionales en sandbox.",
+        "2026-10-26",
+        "2026-11-06",
+        10.0,
+        26,
+        0,
+        0,
+        "Pago internacional registrado con fee y monto neto visibles.",
+        "Sprint Review + demo + aceptación del PO"
+      ]
+    },
+    {
+      "row": 7,
+      "vals": [
+        "Sprint 4",
+        "Liquidación local",
+        "Construir ledger y flujo de retiro hacia banco ecuatoriano.",
+        "2026-11-09",
+        "2026-11-20",
+        10.0,
+        31,
+        0,
+        0,
+        "Cobro puede pasar a saldo y generar una liquidación trazable.",
+        "Sprint Review + demo + aceptación del PO"
+      ]
+    },
+    {
+      "row": 8,
+      "vals": [
+        "Sprint 5",
+        "Control operativo",
+        "Dar visibilidad al usuario y capacidad de conciliación.",
+        "2026-11-23",
+        "2026-12-04",
+        10.0,
+        21,
+        0,
+        0,
+        "Dashboard, conciliación y exportación operativos.",
+        "Sprint Review + demo + aceptación del PO"
+      ]
+    },
+    {
+      "row": 9,
+      "vals": [
+        "Sprint 6",
+        "Preparación de piloto",
+        "Asegurar calidad, seguridad y ejecutar piloto controlado.",
+        "2026-12-07",
+        "2026-12-18",
+        10.0,
+        21,
+        0,
+        0,
+        "MVP estable, probado y listo para validación con usuarios.",
+        "Sprint Review + demo + aceptación del PO"
+      ]
+    }
+  ],
+  "Product Backlog": [
+    {
+      "row": 1,
+      "vals": [
+        "Product Backlog priorizado – MVP",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 3,
+      "vals": [
+        "ID",
+        "Epic",
+        "Historia de usuario / necesidad",
+        "Valor de negocio",
+        "Prioridad",
+        "Story Points",
+        "Criterios de aceptación",
+        "Dependencias",
+        "Sprint objetivo",
+        "Estado"
+      ]
+    },
+    {
+      "row": 4,
+      "vals": [
+        "PB-01",
+        "Descubrimiento",
+        "Como fundador, quiero definir el flujo end-to-end de cobro internacional a liquidación local para validar el MVP.",
+        "Alinea negocio, producto y tecnología.",
+        "P0",
+        5.0,
+        "Flujo aprobado; actores, estados, errores y conciliación documentados.",
+        "—",
+        "Sprint 1",
+        "Pendiente"
+      ]
+    },
+    {
+      "row": 5,
+      "vals": [
+        "PB-02",
+        "Arquitectura",
+        "Como equipo técnico, queremos definir la arquitectura del MVP para integrar cobro, ledger y payout.",
+        "Reduce retrabajo técnico.",
+        "P0",
+        8.0,
+        "Arquitectura documentada; APIs, seguridad, ledger y proveedores definidos.",
+        "PB-01",
+        "Sprint 1",
+        "Pendiente"
+      ]
+    },
+    {
+      "row": 6,
+      "vals": [
+        "PB-03",
+        "Compliance/KYC",
+        "Como empresa, quiero definir requisitos KYC/KYB y límites operativos para registrar usuarios de forma controlada.",
+        "Habilita operación responsable.",
+        "P0",
+        5.0,
+        "Checklist KYC/KYB, datos requeridos y reglas de revisión documentadas.",
+        "PB-01",
+        "Sprint 1",
+        "Pendiente"
+      ]
+    },
+    {
+      "row": 7,
+      "vals": [
+        "PB-04",
+        "Onboarding",
+        "Como freelancer/PYME, quiero registrarme y completar mi perfil para poder cobrar desde el exterior.",
+        "Reduce fricción de entrada.",
+        "P0",
+        8.0,
+        "Registro, login, perfil y progreso de onboarding funcionales.",
+        "PB-03",
+        "Sprint 2",
+        "Pendiente"
+      ]
+    },
+    {
+      "row": 8,
+      "vals": [
+        "PB-05",
+        "KYC/KYB",
+        "Como usuario, quiero cargar mis datos/documentos para verificar mi identidad o negocio.",
+        "Necesario para activar cobros.",
+        "P0",
+        8.0,
+        "Carga, validación básica, estados y trazabilidad disponibles.",
+        "PB-03, PB-04",
+        "Sprint 2",
+        "Pendiente"
+      ]
+    },
+    {
+      "row": 9,
+      "vals": [
+        "PB-06",
+        "Cuenta bancaria",
+        "Como usuario, quiero registrar una cuenta bancaria ecuatoriana para recibir liquidaciones.",
+        "Conecta producto con payout local.",
+        "P0",
+        5.0,
+        "Alta, edición y validación básica de cuenta; una cuenta principal seleccionable.",
+        "PB-04",
+        "Sprint 2",
+        "Pendiente"
+      ]
+    },
+    {
+      "row": 10,
+      "vals": [
+        "PB-07",
+        "Checkout",
+        "Como usuario, quiero generar un link de pago para cobrar a un cliente internacional.",
+        "Función central de captación.",
+        "P0",
+        8.0,
+        "Link único, monto, concepto, moneda USD y expiración configurables.",
+        "PB-04",
+        "Sprint 3",
+        "Pendiente"
+      ]
+    },
+    {
+      "row": 11,
+      "vals": [
+        "PB-08",
+        "Cobro internacional",
+        "Como cliente pagador, quiero pagar con tarjeta internacional de forma segura.",
+        "Genera ingresos procesables.",
+        "P0",
+        13.0,
+        "Pago sandbox aprobado/rechazado; webhook recibido y transacción creada.",
+        "PB-02, PB-07",
+        "Sprint 3",
+        "Pendiente"
+      ]
+    },
+    {
+      "row": 12,
+      "vals": [
+        "PB-09",
+        "Comisiones",
+        "Como usuario, quiero ver comisión y monto neto antes de cobrar para saber cuánto recibiré.",
+        "Transparencia comercial.",
+        "P0",
+        5.0,
+        "Fee y neto visibles antes de confirmar; cálculo consistente en back-end.",
+        "PB-08",
+        "Sprint 3",
+        "Pendiente"
+      ]
+    },
+    {
+      "row": 13,
+      "vals": [
+        "PB-10",
+        "Ledger",
+        "Como plataforma, quiero registrar cargos, fees, saldos y movimientos para tener trazabilidad financiera.",
+        "Base para conciliación y payout.",
+        "P0",
+        13.0,
+        "Cada transacción genera entradas consistentes y auditables.",
+        "PB-02, PB-08",
+        "Sprint 4",
+        "Pendiente"
+      ]
+    },
+    {
+      "row": 14,
+      "vals": [
+        "PB-11",
+        "Liquidación",
+        "Como usuario, quiero solicitar el retiro a mi banco en Ecuador para disponer de mis fondos.",
+        "Diferenciador central.",
+        "P0",
+        13.0,
+        "Solicitud, validación de saldo, estado y referencia de payout funcionando.",
+        "PB-06, PB-10",
+        "Sprint 4",
+        "Pendiente"
+      ]
+    },
+    {
+      "row": 15,
+      "vals": [
+        "PB-12",
+        "Estados y notificaciones",
+        "Como usuario, quiero saber cuándo mi cobro y retiro cambian de estado.",
+        "Aumenta confianza.",
+        "P1",
+        5.0,
+        "Notificaciones para pagado, procesando, liquidado y fallido.",
+        "PB-08, PB-11",
+        "Sprint 4",
+        "Pendiente"
+      ]
+    },
+    {
+      "row": 16,
+      "vals": [
+        "PB-13",
+        "Dashboard",
+        "Como usuario, quiero visualizar saldo, cobros, comisiones y liquidaciones en un panel.",
+        "Control operativo.",
+        "P1",
+        8.0,
+        "KPIs, historial y filtros básicos disponibles.",
+        "PB-10, PB-11",
+        "Sprint 5",
+        "Pendiente"
+      ]
+    },
+    {
+      "row": 17,
+      "vals": [
+        "PB-14",
+        "Conciliación",
+        "Como operaciones, quiero conciliar proveedor de cobro, ledger y payouts para detectar diferencias.",
+        "Reduce riesgo operativo.",
+        "P0",
+        8.0,
+        "Reporte identifica coincidencias y excepciones.",
+        "PB-10, PB-11",
+        "Sprint 5",
+        "Pendiente"
+      ]
+    },
+    {
+      "row": 18,
+      "vals": [
+        "PB-15",
+        "Reportes",
+        "Como PYME, quiero exportar movimientos para contabilidad y control interno.",
+        "Aporta valor B2B.",
+        "P2",
+        5.0,
+        "Exportación con fechas, conceptos, bruto, fee, neto y estado.",
+        "PB-13",
+        "Sprint 5",
+        "Pendiente"
+      ]
+    },
+    {
+      "row": 19,
+      "vals": [
+        "PB-16",
+        "Seguridad",
+        "Como plataforma, quiero endurecer controles de acceso, secretos y auditoría antes del piloto.",
+        "Reduce riesgo técnico.",
+        "P0",
+        8.0,
+        "MFA/admin, secretos, logs y controles críticos revisados.",
+        "PB-02",
+        "Sprint 6",
+        "Pendiente"
+      ]
+    },
+    {
+      "row": 20,
+      "vals": [
+        "PB-17",
+        "QA end-to-end",
+        "Como equipo, queremos validar escenarios críticos de cobro y liquidación antes del piloto.",
+        "Mejora confiabilidad.",
+        "P0",
+        8.0,
+        "Casos críticos ejecutados; defectos bloqueantes cerrados.",
+        "PB-08, PB-11, PB-14",
+        "Sprint 6",
+        "Pendiente"
+      ]
+    },
+    {
+      "row": 21,
+      "vals": [
+        "PB-18",
+        "Piloto MVP",
+        "Como Product Owner, quiero ejecutar un piloto controlado con usuarios reales para validar propuesta de valor.",
+        "Valida hipótesis del negocio.",
+        "P0",
+        5.0,
+        "Piloto con cohorte definida, métricas de éxito y feedback registrado.",
+        "PB-16, PB-17",
+        "Sprint 6",
+        "Pendiente"
+      ]
+    }
+  ],
+  "Sprint Backlog": [
+    {
+      "row": 1,
+      "vals": [
+        "Sprint Backlog – tareas del equipo",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 3,
+      "vals": [
+        "Sprint",
+        "Task ID",
+        "Backlog ID",
+        "Tarea",
+        "Owner / foco funcional",
+        "SP",
+        "Estado",
+        "Definition of Done específica"
+      ]
+    },
+    {
+      "row": 4,
+      "vals": [
+        "Sprint 1",
+        "SB-01",
+        "PB-01",
+        "Mapear customer journey y flujo de fondos",
+        "Producto/Negocio",
+        3.0,
+        "Pendiente",
+        "Flujo revisado por PO y equipo"
+      ]
+    },
+    {
+      "row": 5,
+      "vals": [
+        "Sprint 1",
+        "SB-02",
+        "PB-02",
+        "Diseñar arquitectura, APIs y modelo de datos",
+        "Backend/Arquitectura",
+        5.0,
+        "Pendiente",
+        "Diagrama y contratos principales aprobados"
+      ]
+    },
+    {
+      "row": 6,
+      "vals": [
+        "Sprint 1",
+        "SB-03",
+        "PB-03",
+        "Definir checklist KYC/KYB y límites iniciales",
+        "Compliance/Producto",
+        5.0,
+        "Pendiente",
+        "Matriz de requisitos documentada"
+      ]
+    },
+    {
+      "row": 7,
+      "vals": [
+        "Sprint 1",
+        "SB-04",
+        "PB-02",
+        "Configurar repositorios, entornos y CI básico",
+        "DevOps",
+        3.0,
+        "Pendiente",
+        "Entorno de prueba operativo"
+      ]
+    },
+    {
+      "row": 8,
+      "vals": [
+        "Sprint 2",
+        "SB-05",
+        "PB-04",
+        "Construir registro, login y perfil",
+        "Frontend/Backend",
+        5.0,
+        "Pendiente",
+        "Flujo usable de punta a punta"
+      ]
+    },
+    {
+      "row": 9,
+      "vals": [
+        "Sprint 2",
+        "SB-06",
+        "PB-05",
+        "Construir carga y estado de verificación",
+        "Frontend/Backend",
+        8.0,
+        "Pendiente",
+        "Documentos y estados persistidos"
+      ]
+    },
+    {
+      "row": 10,
+      "vals": [
+        "Sprint 2",
+        "SB-07",
+        "PB-06",
+        "Construir registro de cuenta bancaria",
+        "Frontend/Backend",
+        5.0,
+        "Pendiente",
+        "Cuenta guardada y validaciones básicas"
+      ]
+    },
+    {
+      "row": 11,
+      "vals": [
+        "Sprint 2",
+        "SB-08",
+        "PB-04",
+        "Diseñar onboarding UX y mensajes de confianza",
+        "UX/UI",
+        3.0,
+        "Pendiente",
+        "Pantallas revisadas y consistentes"
+      ]
+    },
+    {
+      "row": 12,
+      "vals": [
+        "Sprint 3",
+        "SB-09",
+        "PB-07",
+        "Construir generador de link de pago",
+        "Frontend/Backend",
+        5.0,
+        "Pendiente",
+        "Link generado y accesible"
+      ]
+    },
+    {
+      "row": 13,
+      "vals": [
+        "Sprint 3",
+        "SB-10",
+        "PB-08",
+        "Integrar proveedor de cobro en sandbox",
+        "Backend/Payments",
+        8.0,
+        "Pendiente",
+        "Pagos aprobados/rechazados capturados"
+      ]
+    },
+    {
+      "row": 14,
+      "vals": [
+        "Sprint 3",
+        "SB-11",
+        "PB-08",
+        "Procesar webhook e idempotencia",
+        "Backend/Payments",
+        5.0,
+        "Pendiente",
+        "Eventos duplicados no duplican transacciones"
+      ]
+    },
+    {
+      "row": 15,
+      "vals": [
+        "Sprint 3",
+        "SB-12",
+        "PB-09",
+        "Implementar cálculo y visualización de fees",
+        "Backend/Frontend",
+        5.0,
+        "Pendiente",
+        "Bruto, fee y neto coinciden"
+      ]
+    },
+    {
+      "row": 16,
+      "vals": [
+        "Sprint 4",
+        "SB-13",
+        "PB-10",
+        "Implementar ledger de movimientos",
+        "Backend/Finance",
+        8.0,
+        "Pendiente",
+        "Movimientos trazables"
+      ]
+    },
+    {
+      "row": 17,
+      "vals": [
+        "Sprint 4",
+        "SB-14",
+        "PB-11",
+        "Implementar solicitud de liquidación bancaria",
+        "Backend/Payments",
+        8.0,
+        "Pendiente",
+        "Solicitud creada y saldo reservado"
+      ]
+    },
+    {
+      "row": 18,
+      "vals": [
+        "Sprint 4",
+        "SB-15",
+        "PB-11",
+        "Implementar estados de payout y manejo de fallos",
+        "Backend/Payments",
+        5.0,
+        "Pendiente",
+        "Estados completos y reintentos controlados"
+      ]
+    },
+    {
+      "row": 19,
+      "vals": [
+        "Sprint 4",
+        "SB-16",
+        "PB-12",
+        "Agregar notificaciones transaccionales",
+        "Frontend/Backend",
+        3.0,
+        "Pendiente",
+        "Usuario recibe eventos clave"
+      ]
+    },
+    {
+      "row": 20,
+      "vals": [
+        "Sprint 5",
+        "SB-17",
+        "PB-13",
+        "Construir dashboard de saldo y movimientos",
+        "Frontend/Data",
+        8.0,
+        "Pendiente",
+        "KPIs e historial disponibles"
+      ]
+    },
+    {
+      "row": 21,
+      "vals": [
+        "Sprint 5",
+        "SB-18",
+        "PB-14",
+        "Crear conciliación básica automática",
+        "Backend/Operations",
+        8.0,
+        "Pendiente",
+        "Excepciones detectadas"
+      ]
+    },
+    {
+      "row": 22,
+      "vals": [
+        "Sprint 5",
+        "SB-19",
+        "PB-15",
+        "Agregar exportación de movimientos",
+        "Frontend/Backend",
+        3.0,
+        "Pendiente",
+        "Archivo exportado correctamente"
+      ]
+    },
+    {
+      "row": 23,
+      "vals": [
+        "Sprint 5",
+        "SB-20",
+        "PB-13",
+        "Agregar filtros y búsqueda",
+        "Frontend",
+        3.0,
+        "Pendiente",
+        "Filtros funcionales"
+      ]
+    },
+    {
+      "row": 24,
+      "vals": [
+        "Sprint 6",
+        "SB-21",
+        "PB-16",
+        "Revisión de seguridad y hardening",
+        "Security/DevOps",
+        5.0,
+        "Pendiente",
+        "Checklist crítico cerrado"
+      ]
+    },
+    {
+      "row": 25,
+      "vals": [
+        "Sprint 6",
+        "SB-22",
+        "PB-17",
+        "Ejecutar pruebas end-to-end",
+        "QA/Equipo",
+        5.0,
+        "Pendiente",
+        "Casos críticos ejecutados"
+      ]
+    },
+    {
+      "row": 26,
+      "vals": [
+        "Sprint 6",
+        "SB-23",
+        "PB-17",
+        "Corregir defectos bloqueantes del MVP",
+        "Developers",
+        5.0,
+        "Pendiente",
+        "Sin defectos P0 abiertos"
+      ]
+    },
+    {
+      "row": 27,
+      "vals": [
+        "Sprint 6",
+        "SB-24",
+        "PB-18",
+        "Preparar y ejecutar piloto controlado",
+        "Producto/Operaciones",
+        5.0,
+        "Pendiente",
+        "Usuarios piloto, métricas y feedback capturados"
+      ]
+    }
+  ],
+  "Organización y Roles": [
+    {
+      "row": 1,
+      "vals": [
+        "Organización y roles bajo SCRUM",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 3,
+      "vals": [
+        "Rol",
+        "Asignación sugerida",
+        "Responsabilidades principales",
+        "Decisiones / entregables",
+        "Participación en eventos",
+        "Nombres"
+      ]
+    },
+    {
+      "row": 4,
+      "vals": [
+        "Product Owner",
+        "Responsable de negocio / fundador",
+        "Prioriza el Product Backlog; define valor; aclara requisitos; acepta resultados.",
+        "Orden del backlog, objetivo de producto y criterios de aceptación.",
+        "Planning, Review, Refinement.",
+        "Christian Grunauer"
+      ]
+    },
+    {
+      "row": 5,
+      "vals": [
+        "Scrum Master",
+        "Facilitador Agile",
+        "Asegura el uso correcto de Scrum; elimina impedimentos; facilita la mejora continua.",
+        "Facilitación, coaching y remoción de bloqueos.",
+        "Planning, Daily, Review, Retrospective, Refinement.",
+        "Emilio "
+      ]
+    },
+    {
+      "row": 6,
+      "vals": [
+        "Developers",
+        "Equipo multidisciplinario",
+        "Convierte backlog en incrementos terminados; estima; gestiona el Sprint Backlog.",
+        "Plan técnico, calidad, estimaciones y Definition of Done.",
+        "Todos los eventos Scrum.",
+        null
+      ]
+    },
+    {
+      "row": 7,
+      "vals": [
+        "Foco Backend/Payments",
+        "Especialidad dentro de Developers",
+        "Cobros, webhooks, ledger, payouts, APIs e integraciones.",
+        "Servicios críticos y trazabilidad financiera.",
+        "Eventos del Scrum Team.",
+        "Jeickol Moreira"
+      ]
+    },
+    {
+      "row": 8,
+      "vals": [
+        "Foco Frontend/Product",
+        "Especialidad dentro de Developers",
+        "Onboarding, checkout, dashboard y experiencia de usuario.",
+        "Interfaces funcionales y consistentes.",
+        "Eventos del Scrum Team.",
+        "Romina Sigcho"
+      ]
+    },
+    {
+      "row": 14,
+      "vals": [
+        "Organización recomendada del Scrum Team",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 15,
+      "vals": [
+        "Tamaño sugerido",
+        "6–9 personas en total",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 16,
+      "vals": [
+        "Estructura",
+        "1 Product Owner + 1 Scrum Master + 4–7 Developers multidisciplinarios",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 17,
+      "vals": [
+        "Principio",
+        "Los focos técnicos no crean jerarquías Scrum; todos los especialistas técnicos forman parte de Developers.",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "row": 18,
+      "vals": [
+        "Stakeholders",
+        "Compliance/legal, proveedores de pagos, usuarios piloto y socios comerciales participan como stakeholders, no como roles Scrum.",
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

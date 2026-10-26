@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+
+# Node & Next.js
+caleta/node_modules/
+caleta/.next/
+caleta/.env*.local
+caleta/out/
+caleta/build/
+
+# IDE / System
+.DS_Store
+Thumbs.db
+*.tmp
