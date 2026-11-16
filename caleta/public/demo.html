@@ -47,7 +47,10 @@ button,a{ -webkit-tap-highlight-color:transparent}button{transition:transform 15
 <dialog id="receipt" class="receipt" aria-labelledby="receipt-title"><div class="success-icon"><svg class="ui-icon " aria-hidden="true"><use href="#i-check"/></svg></div><div class="step-label">03 / Todo listo</div><h2 id="receipt-title">¡Listo, de una!</h2><div id="receipt-amount" class="receipt-amount"></div><p id="receipt-description"></p><div class="summary"><div><span>Tu saldo disponible</span><strong id="receipt-balance"></strong></div></div><div id="receipt-ref" class="receipt-ref"></div><button id="receipt-done" class="primary full">Volver a mi Caleta</button><p style="font-size:10px;margin-bottom:0">Comprobante de práctica · No se movió dinero real</p></dialog><script>
 'use strict';
 const KEY='caleta-practice-v1';
-const studyMode=new URLSearchParams(location.search).get('estudio')==='1';
+const demoParams=new URLSearchParams(location.search);
+const participantCode=/^P\d{2,3}$/.test(demoParams.get('participante')||'')?demoParams.get('participante'):null;
+// Participant links always use an isolated, in-memory study session, never the shared practice store.
+const studyMode=demoParams.get('estudio')==='1'||participantCode!==null;
 const $=id=>document.getElementById(id);
 const money=cents=>new Intl.NumberFormat('es-EC',{style:'currency',currency:'USD'}).format(cents/100);
 function initial(){return {balance:100000,transactions:[{kind:'initial',name:'Saldo inicial de práctica',concept:'Bienvenido a tu cuenta de prueba',amount:100000,date:new Date().toISOString()}]}}
@@ -87,6 +90,14 @@ $('reset').onclick=()=>$('reset-dialog').showModal();$('confirm-reset').onclick=
 window.addEventListener('storage',e=>{if(!studyMode&&e.key===KEY){try{const next=JSON.parse(e.newValue);if(valid(next)){state=next;pending=null;render();if(!processing)$('review').close();$('operation').close();announce('La demo se actualizó desde otra pestaña.')}}catch{}}});
 
 if(studyMode){
+  if(participantCode){
+    document.querySelector('.account small').textContent='Participante '+participantCode+' · Sesión independiente';
+    document.querySelector('.profile small').textContent='Participante '+participantCode+' · USD 1.000 de prueba';
+    document.querySelector('.pill').textContent='Sesión '+participantCode;
+    document.querySelector('#study-info .eyebrow').textContent='Caleta · Participante '+participantCode+' · Plan UTP-1.0';
+    document.querySelector('#study-bar span').textContent='Sesión '+participantCode+' · Puedes detenerte cuando quieras.';
+    document.querySelector('#study-ended p').textContent='Gracias por tu tiempo. El saldo de esta sesión se descartó. Si deseas retirar las notas, indícaselo al moderador con tu código '+participantCode+'.';
+  }
   $('welcome').hidden=true;$('study-info').hidden=false;$('reset').hidden=true;
   $('study-consent').onchange=()=>{$('study-start').disabled=!$('study-consent').checked};
   $('study-start').onclick=()=>{if(!$('study-consent').checked)return;$('study-info').hidden=true;$('study-bar').hidden=false;$('welcome').hidden=false;$('enter').focus()};

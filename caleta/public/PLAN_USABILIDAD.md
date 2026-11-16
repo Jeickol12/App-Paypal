@@ -28,6 +28,8 @@ Coordinar necesidades de accesibilidad y dispositivo habitual. Registrar móvil/
 
 El modo estudio usa saldo en memoria: cada carga empieza con USD 1.000 y un solo movimiento inicial, sin reutilizar ni cambiar los movimientos guardados por la demo libre. La aceptación habilita la bienvenida; no lleva directamente al panel. No hay pistas de tareas, criterios, cronómetro ni puntuaciones en la pantalla del participante. Los avisos de dinero ficticio son parte del producto y deben mantenerse.
 
+Para cuatro personas se preparan enlaces con `&participante=P01`, `P02`, `P03` y `P04`. Cada pestaña tiene su propio saldo, incluso si dos personas abren el mismo código; no existe un saldo compartido en servidor. El código es una etiqueta de investigación, no una credencial ni una cuenta autenticada. Todos usan el mismo perfil ficticio Alex para mantener iguales los escenarios. Cada moderador debe usar una ficha independiente con el código correspondiente. Probar simultáneamente requiere observación separada por persona; si solo hay un moderador, realizar las sesiones por turnos. La aplicación no registra automáticamente resultados ni sincroniza transacciones entre dispositivos.
+
 La recarga reinicia saldo y aceptación: si ocurre durante una tarea, registrarla como interrupción técnica y restaurar el escenario fuera de la vista del participante. No iniciar dos sesiones en una misma pestaña. Antes de cada persona, exportar/verificar el registro del moderador y usar «Preparar otro participante»; abrir el enlace de estudio de nuevo. No hay sincronización automática entre las dos pantallas.
 
 ## 4. Información, aceptación y retiro
