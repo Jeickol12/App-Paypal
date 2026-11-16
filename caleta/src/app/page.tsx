@@ -32,6 +32,7 @@ export default function Home() {
               <h2 id="demo-title" className="text-3xl font-medium tracking-tight">Prueba Caleta. Ayúdanos a mejorar.</h2>
               <p className="mt-4 text-sm leading-7 text-[#62756a]">Explora la experiencia con una cuenta de prueba y USD 1.000 ficticios. Simula movimientos y descubre cómo se siente usar Caleta.</p>
               <p className="mt-3 text-xs text-[#65776a]">Sin registro. Sin dinero real. Puedes reiniciar cuando quieras.</p>
+              <p className="mt-3 text-xs text-[#65776a]">¿Te invitó el equipo a una prueba? <a href="/demo?estudio=1" className="font-semibold underline underline-offset-4">Participar en una sesión guiada</a></p>
             </div>
             <a href="/demo" className="inline-flex shrink-0 items-center justify-center gap-4 self-start rounded-xl border border-[#214e47] bg-[#fffdf8] px-6 py-4 text-sm font-semibold text-[#214e47] hover:bg-[#e2e8d4] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#ac593c] md:self-auto">Entrar a la demo <ArrowRight className="size-4" aria-hidden="true" /></a>
           </div>
