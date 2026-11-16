@@ -34,6 +34,9 @@ export default function Home() {
           La plataforma definitiva para freelancers y PYMEs ecuatorianas. Recibe pagos internacionales con tarjeta y obtén tus dólares directo en tu banco local.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
+          <a href="/demo" className="bg-teal-700 text-white px-8 py-4 rounded-xl font-medium text-center">
+            Probar con dinero ficticio
+          </a>
           <Link href="/registro" className="bg-slate-900 text-white px-8 py-4 rounded-xl font-medium hover:bg-slate-800 transition-all flex items-center justify-center gap-2 shadow-lg shadow-slate-900/20 group">
             Comenzar ahora
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />

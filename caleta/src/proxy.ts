@@ -1,7 +1,14 @@
-import { type NextRequest } from 'next/server'
+import { NextResponse, type NextRequest } from 'next/server'
 import { updateSession } from '@/utils/supabase/middleware'
 
 export async function proxy(request: NextRequest) {
+  // The practice account is fully local and never uses real authentication or funds.
+  if (request.nextUrl.pathname === '/demo' || request.nextUrl.pathname === '/demo/') {
+    return NextResponse.rewrite(new URL('/demo.html', request.url))
+  }
+  if (request.nextUrl.pathname === '/demo.html') {
+    return NextResponse.next()
+  }
   return await updateSession(request)
 }
 
