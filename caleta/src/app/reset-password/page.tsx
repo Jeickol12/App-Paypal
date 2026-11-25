@@ -1,5 +1,7 @@
 'use client'
 
+import BrandLogo from '@/components/BrandLogo'
+
 import { useState } from 'react'
 import Link from 'next/link'
 import { resetPassword } from './actions'
@@ -36,17 +38,12 @@ export default function ResetPasswordPage() {
   }
 
   return (
-    <div className="flex-1 flex flex-col justify-center items-center p-4 sm:p-6 min-h-[calc(100vh-4rem)]">
+    <div className="caleta-auth flex-1 flex flex-col justify-center items-center p-4 sm:p-6 min-h-[calc(100vh-4rem)]">
       <div className="w-full max-w-md bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-slate-200/80">
         
         {/* Cabecera con Logo e Icono */}
         <div className="text-center mb-6">
-          <Link 
-            href="/" 
-            className="inline-block text-2xl font-bold text-slate-900 tracking-tight mb-4 hover:opacity-90 transition-opacity"
-          >
-            Caleta<span className="text-teal-600">.</span>
-          </Link>
+          <BrandLogo />
 
           <div className="w-12 h-12 bg-teal-50 text-teal-600 rounded-2xl flex items-center justify-center mx-auto mb-3 border border-teal-100/80 shadow-xs">
             <KeyRound className="w-6 h-6 text-teal-600" />
@@ -82,8 +79,7 @@ export default function ResetPasswordPage() {
               <button
                 type="button"
                 onClick={() => setShowPassword(!showPassword)}
-                tabIndex={-1}
-                className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 p-1 rounded-lg transition-colors"
+                                className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 p-1 rounded-lg transition-colors"
                 aria-label={showPassword ? 'Ocultar contraseña' : 'Ver contraseña'}
               >
                 {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
@@ -110,8 +106,7 @@ export default function ResetPasswordPage() {
               <button
                 type="button"
                 onClick={() => setShowConfirmPassword(!showConfirmPassword)}
-                tabIndex={-1}
-                className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 p-1 rounded-lg transition-colors"
+                                className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 p-1 rounded-lg transition-colors"
                 aria-label={showConfirmPassword ? 'Ocultar contraseña' : 'Ver contraseña'}
               >
                 {showConfirmPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}

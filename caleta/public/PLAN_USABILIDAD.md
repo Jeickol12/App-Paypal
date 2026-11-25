@@ -1,6 +1,8 @@
 # Caleta · Usability Test Plan UTP-1.0
 
-Fecha: 16 de noviembre de 2026. Estado: preparado para piloto; sin resultados de usuarios todavía. Este plan usa prácticas de planificación de NN/g y GOV.UK. No afirma certificación ISO, conformidad legal ni cumplimiento de una rúbrica académica no entregada.
+Protocolo original: 16 de noviembre de 2026. Actualización de estado: 25 de noviembre de 2026. El equipo entregó cinco registros principales y un piloto de sesiones del 16 y 23 de noviembre, conservados fuera del repositorio público. Este plan usa prácticas de planificación de NN/g y GOV.UK. No afirma certificación ISO, conformidad legal ni cumplimiento de una rúbrica académica no entregada.
+
+La identidad caleta-brand-1.0-2026-11-25 es posterior a esas sesiones. Las tareas y límites se mantienen; las nuevas sesiones deben analizarse como otra ronda. El panel añade la versión a las exportaciones futuras. No atribuir resultados históricos a este rediseño.
 
 ## 1. Propósito y preguntas
 

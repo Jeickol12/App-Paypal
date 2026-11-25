@@ -1,5 +1,7 @@
 'use client'
 
+import BrandLogo from '@/components/BrandLogo'
+
 import { useState } from 'react'
 import Link from 'next/link'
 import { login } from './actions'
@@ -19,12 +21,10 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="flex-1 flex flex-col justify-center items-center p-6">
+    <div className="caleta-auth flex-1 flex flex-col justify-center items-center p-6">
       <div className="w-full max-w-md bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
         <div className="text-center mb-8">
-          <Link href="/" className="text-2xl font-bold text-slate-900 inline-block mb-2">
-            Caleta <span className="text-teal-600">.</span>
-          </Link>
+          <BrandLogo />
           <h1 className="text-2xl font-semibold text-slate-800">Inicia sesión</h1>
           <p className="text-slate-500 mt-2">Accede a tu cuenta para continuar</p>
         </div>

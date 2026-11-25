@@ -8,7 +8,7 @@ export async function proxy(request: NextRequest) {
     demoUrl.pathname = '/demo.html'
     return NextResponse.rewrite(demoUrl)
   }
-  if (['/demo.html', '/test-usabilidad.html', '/PLAN_USABILIDAD.md'].includes(request.nextUrl.pathname)) {
+  if (['/', '/demo.html', '/test-usabilidad.html', '/PLAN_USABILIDAD.md', '/brand/brand.css'].includes(request.nextUrl.pathname)) {
     return NextResponse.next()
   }
   return await updateSession(request)

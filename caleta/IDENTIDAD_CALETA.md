@@ -1,32 +1,11 @@
-# Caleta · Tu dinero, en casa
+# Caleta · Identidad 1.0
 
-Dirección creativa inicial, 16 de noviembre de 2026. Aplicada a la portada y la cuenta de práctica. Pendiente validación con usuarios ecuatorianos.
+Actualización: 25 de noviembre de 2026. Dirección aprobada: cálida, joven, expresiva y ecuatoriana contemporánea. Caleta se relaciona con casa y pertenencia. Mensaje: «Tu mundo. Tu plata. Tu Caleta.». Firma: «Hecha con ganas.».
 
-## Concepto
+El logotipo aprobado sustituye la última a por una casa. Usar public/brand/caleta-logo.png sin reconstruirlo con tipografía ni modificar proporciones. Símbolo independiente: public/brand/caleta-casa.png. Ambos proceden del brand book aprobado.
 
-Casa, cercanía y autonomía. La marca acompaña a quien trabaja con el mundo y mantiene sus vínculos en Ecuador. El hogar es el símbolo principal; montaña, agua, sol y terracota forman una ilustración original y abstracta, sin representar una localidad específica ni atribuir motivos a una comunidad.
+Paleta: crema #FFF5E9, tinta #3D2938, coral #B8442F, morado #7043A2, amarillo #FFD36C, lila #DAC5F4, texto secundario #725E69. Segoe UI con alternativas Arial/sans-serif. Tokens y estilos compartidos en public/brand/brand.css, importados por Next y enlazados por demo y moderador. Foco visible, controles móviles y movimiento reducido.
 
-Mensaje principal: «Tu mundo crece. Tu dinero, en casa». Firma: «De aquí. Para llegar más lejos». Voz: directa, cálida, serena. El giro «¡Listo, de una!» aparece solo como celebración breve; importes, destinatarios, errores y condiciones usan lenguaje preciso.
+Portada, login, registro, recuperación, cambio de contraseña, bienvenida, demo y moderador comparten identidad. El tono es cercano en bienvenida y navegación; importes, destinos, errores y confirmaciones mantienen precisión. Alex se identifica como titular ficticio. El error por saldo insuficiente aclara que la demo no permite añadir fondos.
 
-## Sistema visual
-
-| Token | Valor | Uso |
-|---|---|---|
-| Pacífico | #214e47 | Botones principales y saldo |
-| Tinta | #203f3b | Texto principal |
-| Arena | #f8f5ed | Fondo |
-| Terracota | #ac593c | Marca y acentos |
-| Sol | #eed19a | Acentos suaves |
-| Línea | #e4e6da | Separadores |
-
-Símbolo: casa de trazo abierto y simple. Wordmark: minúsculas, compacto, punto terracota. Ilustración SVG propia, reutilizable en `public/caleta-landscape.svg`. Tarjetas de 20 px de radio; controles de 10 px. Jerarquía: saldo y acción, luego movimientos. Tipografía de sistema en la demo autónoma; la portada conserva la tipografía del proyecto.
-
-## Movimiento
-
-Carácter sereno y funcional. Curva: cubic-bezier(.2,0,0,1). Duraciones: 150 ms para respuesta de controles, 320 ms para diálogos, 550 ms para resolución de transacción simulada. Entrada suave hacia arriba, sin rebotes. Secuencia: preparar → revisar → simular → comprobante → saldo e historial resaltados.
-
-El saldo se registra una sola vez al confirmar; el breve estado «Simulando» es presentación local, no actividad bancaria. Se bloquean confirmaciones repetidas durante esa transición. `prefers-reduced-motion` elimina animaciones y la espera visual. Los diálogos conservan foco de teclado y lo devuelven a la acción al cerrar el comprobante.
-
-## Alcance y próximos tests
-
-Se mantiene explícita la naturaleza ficticia en banner, acciones y comprobantes. Ninguna promesa de pagos reales. Evaluar comprensión de «mi Caleta», confianza, legibilidad móvil, descubrimiento de envío/retiro, comprensión de confirmación y percepción del tono local. La dirección visual aún no constituye validación de marca ni resultados de usabilidad.
+La demo usa saldo ficticio y almacenamiento local. No procesa pagos ni se conecta con bancos. La identidad del 25 de noviembre es posterior a las sesiones del 16 y 23 y requiere una segunda ronda. Los resultados históricos no demuestran que este rediseño mejore usabilidad. El moderador registra prototypeVersion en exportaciones futuras.

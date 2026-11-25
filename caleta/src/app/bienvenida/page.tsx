@@ -1,3 +1,4 @@
+import BrandLogo from '@/components/BrandLogo'
 import { createClient } from '@/utils/supabase/server'
 import { redirect } from 'next/navigation'
 import { logout } from '@/app/login/actions'
@@ -22,9 +23,7 @@ export default async function WelcomePage() {
     <div className="flex-1 bg-slate-50 min-h-screen">
       <header className="bg-white border-b border-slate-200">
         <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
-          <div className="text-xl font-bold text-slate-900">
-            Caleta <span className="text-teal-600">.</span>
-          </div>
+          <BrandLogo />
           <form action={logout}>
             <button type="submit" className="text-slate-600 hover:text-slate-900 font-medium flex items-center gap-2">
               <LogOut className="w-4 h-4" />
@@ -37,7 +36,7 @@ export default async function WelcomePage() {
       <main className="max-w-5xl mx-auto px-6 py-12">
         <div className="mb-10">
           <h1 className="text-3xl font-bold text-slate-900 mb-2">¡Hola, {fullName}! 👋</h1>
-          <p className="text-slate-600 text-lg">Bienvenido a tu panel de control de NexoCobro.</p>
+          <p className="text-slate-600 text-lg">Esta es tu Caleta. Revisa el estado de tu cuenta y lo que viene.</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-6">
@@ -64,7 +63,7 @@ export default async function WelcomePage() {
                   <Clock className="w-6 h-6 text-slate-400 shrink-0" />
                   <div>
                     <p className="font-medium text-slate-900">Verificación de Identidad (KYC/KYB)</p>
-                    <p className="text-sm text-slate-600">Próximo paso: Sube tus documentos para operar. (Sprint 2)</p>
+                    <p className="text-sm text-slate-600">Función en desarrollo. La carga de documentos aún no está disponible.</p>
                   </div>
                 </li>
 
@@ -72,16 +71,16 @@ export default async function WelcomePage() {
                   <Clock className="w-6 h-6 text-slate-400 shrink-0" />
                   <div>
                     <p className="font-medium text-slate-900">Cuenta Bancaria en Ecuador</p>
-                    <p className="text-sm text-slate-600">Configura tu cuenta bancaria local para recibir fondos. (Sprint 3)</p>
+                    <p className="text-sm text-slate-600">Función en desarrollo. Todavía no puedes añadir una cuenta bancaria.</p>
                   </div>
                 </li>
               </ul>
             </div>
 
-            <div className="bg-gradient-to-r from-teal-600 to-cyan-700 rounded-2xl p-6 shadow-sm text-white">
+            <div className="caleta-future bg-slate-900 rounded-2xl p-6 shadow-sm text-white">
               <h2 className="text-lg font-bold mb-2">Próximamente: Links de Pago</h2>
               <p className="text-teal-50 mb-4">
-                Muy pronto podrás generar links de cobro para enviar a tus clientes internacionales y recibir el dinero directo en tu cuenta local en Ecuador.
+                Estamos construyendo esta función. Por ahora, explora la cuenta de práctica con dinero ficticio.
               </p>
               <button disabled className="bg-white/20 text-white px-4 py-2 rounded-lg font-medium cursor-not-allowed">
                 Crear nuevo link (Próximamente)

@@ -1,5 +1,7 @@
 'use client'
 
+import BrandLogo from '@/components/BrandLogo'
+
 import { useState } from 'react'
 import Link from 'next/link'
 import { signup } from '@/app/login/actions'
@@ -26,7 +28,7 @@ export default function RegisterPage() {
 
   if (success) {
     return (
-      <div className="flex-1 flex flex-col justify-center items-center p-6">
+      <div className="caleta-auth flex-1 flex flex-col justify-center items-center p-6">
         <div className="w-full max-w-md bg-white p-8 rounded-2xl shadow-sm border border-slate-200 text-center">
           <CheckCircle2 className="w-16 h-16 text-teal-600 mx-auto mb-4" />
           <h2 className="text-2xl font-bold text-slate-900 mb-2">¡Revisa tu correo!</h2>
@@ -42,14 +44,12 @@ export default function RegisterPage() {
   }
 
   return (
-    <div className="flex-1 flex flex-col justify-center items-center p-6 py-12">
+    <div className="caleta-auth flex-1 flex flex-col justify-center items-center p-6 py-12">
       <div className="w-full max-w-md bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
         <div className="text-center mb-8">
-          <Link href="/" className="text-2xl font-bold text-slate-900 inline-block mb-2">
-            Caleta <span className="text-teal-600">.</span>
-          </Link>
+          <BrandLogo />
           <h1 className="text-2xl font-semibold text-slate-800">Crea tu cuenta</h1>
-          <p className="text-slate-500 mt-2">Únete a la plataforma global de cobros</p>
+          <p className="text-slate-500 mt-2">Tu primer paso para entrar a Caleta</p>
         </div>
 
         <form action={handleSubmit} className="space-y-4">

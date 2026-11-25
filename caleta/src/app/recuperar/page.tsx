@@ -1,5 +1,7 @@
 'use client'
 
+import BrandLogo from '@/components/BrandLogo'
+
 import { useState } from 'react'
 import Link from 'next/link'
 import { requestPasswordReset } from './actions'
@@ -26,7 +28,7 @@ export default function RecoverPage() {
 
   if (success) {
     return (
-      <div className="flex-1 flex flex-col justify-center items-center p-6">
+      <div className="caleta-auth flex-1 flex flex-col justify-center items-center p-6">
         <div className="w-full max-w-md bg-white p-8 rounded-2xl shadow-sm border border-slate-200 text-center">
           <CheckCircle2 className="w-16 h-16 text-teal-600 mx-auto mb-4" />
           <h2 className="text-2xl font-bold text-slate-900 mb-2">Correo enviado</h2>
@@ -42,12 +44,10 @@ export default function RecoverPage() {
   }
 
   return (
-    <div className="flex-1 flex flex-col justify-center items-center p-6">
+    <div className="caleta-auth flex-1 flex flex-col justify-center items-center p-6">
       <div className="w-full max-w-md bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
         <div className="text-center mb-8">
-          <Link href="/" className="text-2xl font-bold text-slate-900 inline-block mb-2">
-            Caleta <span className="text-teal-600">.</span>
-          </Link>
+          <BrandLogo />
           <h1 className="text-xl font-semibold text-slate-800">Recupera tu cuenta</h1>
           <p className="text-slate-500 mt-2 text-sm">Ingresa tu correo y te enviaremos un enlace para restablecer tu contraseña.</p>
         </div>
